@@ -1,3 +1,4 @@
+                              //It's the Rectangle Class of The CODE-1
 class Rectangle {
     double length;
     double width;
