@@ -1,4 +1,4 @@
-
+                                        //It's the main class of the Code
 import java.util.Scanner;
 
         public class Main {
