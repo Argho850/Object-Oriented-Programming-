@@ -1,13 +1,28 @@
+import java.util.Scanner;
+
 public class Main {
 
+
     public static void main(String[] args) {
-        Book book1 = new Book();
-        book1.display();
 
-        Book book2 = new Book("1984", "Argho");
-        book2.display();
 
-        Book book3 = new Book("Bangla", "Munni", 300);
-        book3.display();
+        Scanner scanner = new Scanner(System.in);
+        Shape s = new Shape(3, 6, 7);
+        //System.out.print("Enter the heigth :");
+        //s.height = scanner.nextDouble();
+        //System.out.print("Enter the width :");
+        // s.width = scanner.nextDouble();
+
+        //System.out.print("Enter the radius:");
+        //s.radius=scanner.nextDouble();
+
+        s.display();
+
+        System.out.print("Area1 :" + Shape.area(s.height, s.width));
+
+        System.out.print("\nArea2  :" + Shape.area(s.radius));
+
+
+
     }
 }
